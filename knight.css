@@ -1,0 +1,39 @@
+.knight{
+    width: 600px;
+    height: 400px;
+}
+.post {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.post img{
+width: 100%;
+height: block;
+}
+
+.post:hover footer {
+    width: 100%;
+}
+.post footer {
+width: 0;
+height: 100%;
+background: rebeccapurple;
+opacity: 0.4;
+position: absolute;
+top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+transition: all 400ms;
+}
+footer h2 {
+color: #e0e0e9;
+font-size: 3rem;
+border: 6px solid #e0e0e9;
+padding: .8em 1.9em;
+}
